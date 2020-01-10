@@ -20,51 +20,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> <!-- font awsome link -->
 
     <style>
-		.carousel-inner {
-			position: relative;
-			width: 100%;
-			overflow: unset;
-		}
-		.carousel-control {
-		    height: 50px;
-		    position: absolute;
-		    top: -90px;
-		    margin-left: 81%;
-		    bottom: 0;
-		    left: 0px;
-		    /*color: #fff;*/
-		    background-color: none;
-		}
-		.item {
-			/*border: 1px solid black;*/
-			position: relative;
-		}
-		.img-responsive {
-			padding-top: 45px;
-		}
-		.carousel-title {
-			color: #03132b;
-		    font-weight: bold;
-		    font-size: 28px;
-		}
-		.carousel-text {
-		    margin: 0 0 20px;
-		    font-size: 16px;
-		    line-height: 26px;
-		    font-family: 'Raleway', sans-serif!important;
-		}
-		.carousel-view {
-			font-weight: bold;
-    		color: #a6a8aa;
-		}
-		.item a:hover {
-		    color: #fbd201;
-		    text-decoration: none;
-		}
-		.item h5:hover {
-			color: #fbd201;
-		    text-decoration: none;
-		}
+		
 	</style>
 
 </head>
@@ -110,11 +66,11 @@
 					<div class="logo">
 						<a href="Industrial.html"><img src="image/logo.png" alt="logo here"></a>
 					</div>
-			<button class="icon iconn iconn--transparent" onclick="myFunction()">
-				<span></span>
-				<span></span>
-				<span></span>
-			</button>
+					<button class="icon iconn iconn--transparent" onclick="myFunction()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
 				</div>
 				<div class="col-md-9 col-sm-12 col-xs-12">
 					<div class="topnav" id="myTopnav">
@@ -174,57 +130,8 @@
 		  <a class="next" onclick="plusSlides(1, 0)"><i class="fa fa-chevron-circle-right"></i></a>
 	</div>
 	<div class="clearfix"></div>
-	<div class="no-padding section">
-		<!-- <div class="container"> -->
-			<!-- <div class="row">
-				<div class="col-md-12">
-					<div class="second-slider">
-						<h2 class="services">OUR SERVICES</h2>
-						<h1 class="we_do">What We Do</h1>
-					</div>
-					<div class="prev-next-icon">
-						<a class="circle_prev" onclick="plusSlidess(-3, 0)"><i class="fa fa-chevron-circle-left"></i></a>
-						<a class="circle_next" onclick="plusSlidess(3, 0)"><i class="fa fa-chevron-circle-right"></i></a>
-					</div>
-				</div>
-			</div> -->
-			<!-- <div class="container">
-				<div class="row" id="section-4">
-					<div class="col-md-4">
-						<div class="card" >
-						  <img class="card-img-top" src="image/services-icon-1.png" alt="Card image cap">
-						  <div class="card-body">
-						    <h5 class="card-title">Automotive Manufacturing</h5>
-						    <p class="card-text">The automotive industry is now<br> undergoing the greatest upheaval in its <br> history due to the advancement...</p>
-						    <a href="#" class="card_a">View details <i class="fa fa-plus-circle"></i></a>
-						  </div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="card" >
-						  <img class="card-img-top" src="image/services-icon-2.png" alt="Card image cap">
-						  <div class="card-body">
-						    <h5 class="card-title">Transportation & Distribution</h5>
-						    <p class="card-text">By specializing in the transportation of <br>goods in and around the Midwestern<br> United States, we are able to...</p>
-						    <a href="#" class="card_a">View details <i class="fa fa-plus-circle"></i></a>
-						  </div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="card">
-						  <img class="card-img-top" src="image/services-icon-3.png" alt="Card image cap">
-						  <div class="card-body">
-						    <h5 class="card-title">Oil & Gas exploited</h5>
-						    <p class="card-text">We are a leading explorer for new oil and <br>gas fields. We do this not only to <br> replenish the reserves we produce from <br> current fields, but also to meet...</p>
-						    <a href="#" class="card_a">View details <i class="fa fa-plus-circle"></i></a>
-						  </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
-		<!--Second Carousel Start-->
+	<div class="no-padding section" style="">
+	<!--Second Carousel Start-->
 		<div class="container" >
 			<div class="row">
 				<div class="col-md-12">
@@ -295,6 +202,44 @@
 		</div>
 	</div>
 
+	<section class="connect-no-padding">
+		<div class="row">
+			<div class="video-section-left">
+				<div class="home-video video-player">
+					<a class="video-play" href="https://www.youtube.com/watch?v=SyRchIzIq9I"><i class="fa fa-play" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			<div class="video-section-right">
+				<div class="block-right">
+					<h4>OUR STORY</h4>
+					<h2>Connecting things,<br>it's all about people.</h2>
+					<p>When, while the lovely valley teems with vapour around me, and the<br> meridian sun strikes the upper surface of the impenetrable foliage of my<br> trees, and but a few stray gleams steal into the inner sanctuary, I throw<br> myself down among the tall grass by the trickling stream; and, as I lie<br> close to the earth, a thousand unknown plants are noticed... <a href="#" class="text-white">Read more</a></p>
+					<img src="image/sign.png" class="sign">
+					<div class="row">
+						<div class="col-md-offset-1 col-md-11 no-padding-sm-left">
+							<div class="about-author">
+								<div class="about-author-info">
+									<h4><strong>Arya Star</strong></h4>
+									<p>CEO, Founder</p>
+								</div>
+								<div class="about-author-media">
+									<a href="#"><i class="fa fa-linkedin"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-skype"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="clearfix"></div>
+	<section class="visitor">
+		<div class="">
+			
+		</div>
+	</section>
 	<script>
 		// Instantiate the Bootstrap carousel
 		$('.multi-item-carousel').carousel({

@@ -9,17 +9,13 @@
   	background-color: #03132b;
   	width: 100%;
 }
-.row{
-	  margin-left: -15px;
-    margin-right: -15px;
-}
 .topbar-left ul{
-	  list-style: none;
+	list-style: none;
     padding-left: 0;
     margin-bottom: 0;
 }
 .topbar-left {
-	  background-color: #03132b;
+	background-color: #03132b;
     color: #b7b7b7;
     font-size: 14px;
     line-height: 26px;
@@ -37,15 +33,13 @@
     vertical-align: middle;
 }
 .topbar-left li{
-	  display: inline-block;
+	display: inline-block;
     line-height: 26px;
-    /*padding: 13px 24px;*/
     padding: 13px 24px 16px 24px;
     border-left: 1px solid rgba(183,183,183,0.2);
 }
 a{
-	/*font-family: arial*/
-	 background-color: transparent;
+	background-color: transparent;
 }
 .right {
     border-right: 1px solid rgba(183,183,183,0.2);
@@ -75,13 +69,8 @@ a{
 .main-header {
     max-width: 100%;
     height: auto;
-    /*border: 1px solid black;*/
 }
 .icon {
-    color: black;
-    display: none;
-}
-#navbar-close {
     color: black;
     display: none;
 }
@@ -97,11 +86,7 @@ a{
     margin-bottom: 0;
     padding-left: 0;
 }
-.topnav > ul > li{
-    /*font-family: "Roboto", sans-serif;
-    list-style: none;
-    float: left;
-    padding: 13px 24px 16px 24px;*/
+.topnav > ul > li {
     text-align: -webkit-match-parent;
     position: relative;
     display: inline-block;
@@ -130,8 +115,6 @@ a{
     text-align: center;
     background: #ffd100;
     cursor: pointer;
-    /*border: 1px solid transparent;*/
-    /*color: #272023;*/
     outline: none;
     min-width: 150px;
     border-radius: 0;
@@ -142,27 +125,10 @@ a{
     border: none;
 }
 
-// SliderShow CSS
+ /*SliderShow CSS*/
 
-.slider-content {
-    position: absolute;
-    margin-top: -50px;
-}
 .slider-content h1{
     font-size: 20px;
-}
-.mySlides {
-    opacity: unset!important;
-    display: none;
-}
-.numbertext img {
-    vertical-align: middle;
-}
-/* Slideshow container */
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
 }
 
 /* Next & previous buttons */
@@ -187,70 +153,13 @@ a{
     border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
-  /*background-color: #fbd201;*/
-}
 .slideshow-container-fluid {
     position: relative;
 }
 .slideshow-container-fluid a:hover {
     color: #fbd201!important;
 }
-/* Caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-    background-color: #717171;
-} 
-
-/* Fading animation */
-/*.mySlides .fade:not(.show) {
-    opacity: unset!important;
-}*/
-.fade {
-    opacity: unset!important;
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-:focus {
-    outline: none;
-}
-.icons {
-    margin: 50px 0;
-}
-.iconn:focus{
+.iconn:focus {
     outline: none !important;
 }
 .iconn {
@@ -308,36 +217,31 @@ a{
     background-color: #031023;
 }
 
-### Slider CSS
+ /*Slider CSS*/
 
 .slider-content {
-
-    /*border: 1px solid;*/
+    margin-left: 55px;
+    position: absolute;
     color: white;
-    margin-top: -512px;
-    padding: 13px;
+    margin-top: -440px;
+    padding: 10px;
 }
 .mySlides1 {
     position: relative;
     height: 500px;
     width: 100%;
 }
-.mySlides1 img{
+.mySlides1 img {
     height: 100%;
     width: 100%;
 }
-.slider-content {
-    padding: 10px;
-    margin-top: -440px;
-    margin-left: 55px;
-}
-.welcome{
+.welcome {
     letter-spacing: 2px;
     color: #fff;
     font-size: 16px;
     line-height: 24px;
 }
-.solution{
+.solution {
     font-size: 90px!important;
     font-weight: 900;
     color: #fff;
@@ -345,81 +249,183 @@ a{
 }
 
 /*no-padding section css*/
-.no-padding{
+.no-padding {
     position: relative;
     width: 100%;
     height: 700px;
-    /*border: 1px solid;*/
 }
-.second-slider{
+.second-slider {
     padding: 80px 0px 30px 0px;
 }
-.services{
+.services {
     font-weight: bold;
     color: #fbd201;
     font-size: 17px;
 }
-.we_do{
+.we_do {
     color: #03132b;
     font-size: 50px;
     font-weight: bolder;
     line-height: 56px;
 }
-.prev-next-icon{
-    margin-right: 2px;
+
+.Connect-thing {
     position: relative;
-    margin-top: -70px;
-    float: right;
-    font-size: 35px;
 }
-.circle{
-    background-color: transparent;
-    color: #a6a8aa;
+.row {
+    margin: 0px;
 }
-.prev-next-icon a{
-    color: #a6a8aa;
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: unset;
 }
-.prev-next-icon a:hover {
-    color: #fbd201!important;
+.carousel-control {
+    height: 50px;
+    position: absolute;
+    top: -100px;
+    margin-left: 81%;
+    bottom: 0;
+    left: 0px;
+    /*color: #fff;*/
+    background-color: none;
 }
-.col-md-4 {
+.carousel-control .left {
+    background-image: none;
 
 }
-.card {
-    top: 30px;
-    height: 350px;
-    width: 100%!important;
+.carousel-control .right {
+    background-image: unset !important ;
+
+}
+.item {
+    /*border: 1px solid black;*/
     position: relative;
 }
-.card-title {
-    font-size: 25px;
+.img-responsive {
+    padding-top: 45px;
+}
+.carousel-title {
+    color: #03132b;
     font-weight: bold;
+    font-size: 28px;
 }
-.card-text{
-    margin-top: 20px;
+.carousel-text {
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Raleway', sans-serif!important;
 }
-.card-img-top {
-    margin-left: 25px;
-    margin-top: 16px;
-    position: absolute;
-    height: 78px;
-    width: 150px;
-}
-.card-body{
-    margin-top: 100px;
-}
-.card-body h5:hover {
-    text-decoration: none;
-    color: #fbd201;
-}
-.card_a {
+.carousel-view {
     font-weight: bold;
     color: #a6a8aa;
 }
-.card-body a:hover {
-    text-decoration: none!important;
-    color: #fbd201!important;
+.item a:hover {
+    color: #fbd201;
+    text-decoration: none;
 }
-.circle_prev .circle_next {
-    color: #a6a8aa !important;
+.item h5:hover {
+    color: #fbd201;
+    text-decoration: none;
+}
+.video-section-left {
+    position: relative;
+    width: 45%;
+    height: 667px;
+    background-image: url(./image/video-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-video .video-play {
+    position: absolute;
+    right: -50px;
+    top: 44%;
+    z-index: 1;
+    width: 103px;
+    height: 103px;
+    background-color: #fff;
+    border: 10px solid #ffd100;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 83px;
+    display: inline-block;
+}
+.home-video .video-play:hover{
+    transform: scale3d(1.1,1.1,1.1);
+    background-color: #ffd100;
+    border-color: #fff;
+}
+.home-video .video-play:hover i{
+    color: #fff;
+}
+.home-video a i {
+    font-size: 20px;
+    margin-left: 4px;
+    color: #ffd100;
+}
+.video-section-right {
+    float: right;
+    width: 55%;
+    height: 667px;
+    background-color: #fbd201;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -668px;
+}
+.block-right {
+    padding: 80px;
+}
+.block-right h4 {
+    font-weight: bold;
+}
+.block-right h2 {
+    color: #03132b;
+    margin-bottom: 45px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 56px;
+}
+.block-right p {
+    margin: 0 0 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+.block-right .text-white {
+    color: white;
+    text-decoration: none;
+}
+.block-right a:hover {
+    color: #00aeef;
+}
+.block-right a:hover i{
+    color: #00aeef;
+}
+.block-right img {
+    vertical-align: middle;
+}
+.no-padding-sm-left{
+    margin: 0px 15px;
+}
+.about-author-info {
+    height: 70px;
+    float: left;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid #252525;
+}
+.about-author-info h4 {
+    margin-top: -5px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #03132b;
+}
+.about-author-media a i {
+    color: #03132b;
+    margin-top: 24px;
+}
+.about-author-media a {
+    margin-right: 15px;
+    font-size: 21px;
+    line-height: 50px;
 }
